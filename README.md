@@ -1,16 +1,49 @@
-### Hi there 👋
+```php
+<?php
 
-<!--
-**cosminsandu/cosminsandu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace CosminSandu;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'company' => 'SmartValue',
+                'position' => 'Software Developer'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge()
+    {
+        return [
+            Symfony::class,
+            Php::class,
+            PhpStorm::class,
+            Git::class,
+            Docker::class,
+            RabbitMQ::class,
+            Jira::class,
+            Javascript::class,
+            Html::class,
+            Css::class,
+        ];
+    }
+
+    public function getLinks()
+    {
+        return [
+            'https://github.com/cosminsandu',
+            'https://cosminsandu.github.io/',
+            'https://www.linkedin.com/in/sanducosminmihai/',
+            'http://cosminsandu.ro/',
+        ]
+    }
+
+    public function getFutureGoal()
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
