@@ -1,3 +1,9 @@
+### 👋 Hi there
+I'm a software engineer/developer in Romania.
+
+Currently, I'm working for [SmartValue](https://www.smartvalue.io/) / [Newpharma](https://newpharma.net/). 
+
+
 ```php
 <?php
 
