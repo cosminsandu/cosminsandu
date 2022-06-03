@@ -1,7 +1,7 @@
 ### 👋 Hi there
 I'm a software engineer/developer in Romania.
 
-Currently, I'm working for [SmartValue](https://www.smartvalue.io/) / [Newpharma](https://newpharma.net/). 
+Currently, I'm working as a Sfotware Engineer Freelancer. 
 
 
 ```php
@@ -15,7 +15,7 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'SmartValue',
+                'company' => 'Foodomarket',
                 'position' => 'Software Developer'         
             ]
         ];
